@@ -1,7 +1,7 @@
-oid setup() {
+void setup() {
 
- int i =10;
- while(i<=13)
+ int i =0;
+ while(i<=3)
  {
   pinMode(i,OUTPUT);
   i++;
@@ -12,9 +12,9 @@ oid setup() {
 void loop() {
 
  int i = 10;
- while(i<=13)
+ while(i<=3)
  { 
-  if(i<13)
+  if(i<3)
   {
  digitalWrite(i,HIGH);
  digitalWrite(i+1,HIGH);
